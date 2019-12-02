@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Labra2_tehtava2'
