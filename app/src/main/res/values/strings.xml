@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Labra2_tehtava2</string>
+    <string name="output_data">Output Data</string>
+    <string name="start">Start</string>
 </resources>
