@@ -17,6 +17,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+
 public class AsynkTask extends AsyncTask<String, String, ArrayList<String>> {
 
     @Override
@@ -80,7 +81,7 @@ public class AsynkTask extends AsyncTask<String, String, ArrayList<String>> {
         super.onPostExecute(keys);
         String lista = "";
         for (String stock:keys){
-            lista = lista + stock +"\n";
+            lista = lista + stock + "\n" + "\n";
         }
         MainActivity.tvOutput2.setText(lista);
     }
